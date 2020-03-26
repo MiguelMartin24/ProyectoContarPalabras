@@ -28,12 +28,7 @@ public class Practica {
     
                 imprimirR.textoCaracteresTotal(contarp.contarCaracteresTotal(cadena));
                 imprimirR.textoNumeroPalabras(contarp.contarNumeroPalabras(cadena));
-                imprimirR.textoTodosCaracteres(contarp.contarTodosCaracteres(cadena));
-                
-
-                
-                
-		
+                imprimirR.textoTodosCaracteres(contarp.contarTodosCaracteres(cadena));	
 	}
 	
 	
