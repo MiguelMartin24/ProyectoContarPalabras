@@ -10,6 +10,11 @@ package practica;
  * @author migue
  */
 public class ContarPalabras extends Atributos{
+        /**
+         * 
+         * @param cadena
+         * @return El número de palabras
+         */
         int contarNumeroPalabras(String cadena){
        	char car2 = ' ';
 		for (int i = 0;i<cadena.length();i++){ //Se recorre la cadena
@@ -24,6 +29,11 @@ public class ContarPalabras extends Atributos{
  		}
                  return palabras;
 	}
+        /**
+         * 
+         * @param cadena que le introduce el usuario
+         * @return devuelve el número de caracteres sin blancos
+         */
         int contarCaracteresTotal(String cadena){
 		for (int i = 0;i<cadena.length();i++){ //recorro la cadena
 			char car = cadena.charAt(i); //Se obtiene el valor de la posición de i en la cadena
@@ -32,7 +42,11 @@ public class ContarPalabras extends Atributos{
                  }
                 return numCaracteresSinBlancos;
         }
-    
+        /**
+         * 
+         * @param cadena
+         * @return contador de todos los caracteres
+         */
         int [] contarTodosCaracteres(String cadena){
         for (int i = 0;i<cadena.length();i++){ //Se recorre la cadena
 			char car = cadena.charAt(i); //Obtengo el valor de la posicion i del for en la cadena
